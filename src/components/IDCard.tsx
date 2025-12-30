@@ -2,7 +2,7 @@ import { Linkedin, Github } from "lucide-react";
 
 const IDCard = () => {
   return (
-    <div className="relative -ml-16">
+    <div className="relative -ml-16 -translate-x-10">
       {/* Lanyard/String - extends to top of screen */}
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-0.5 h-[50vh] bg-foreground/30" />
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-4 h-4 rounded-full bg-foreground/20 border-2 border-foreground/30" />
