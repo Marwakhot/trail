@@ -24,7 +24,7 @@ const IDCard = () => {
         <div className="flex justify-center -mt-16 mb-4">
           <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
             <img 
-              src="/profile.png" 
+              src="/profile.jpeg" 
               alt="Profile" 
               className="w-full h-full object-cover"
             />
