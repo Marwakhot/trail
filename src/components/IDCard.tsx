@@ -7,10 +7,10 @@ const IDCard = () => {
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-0.5 h-[50vh] bg-foreground/30" />
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-4 h-4 rounded-full bg-foreground/20 border-2 border-foreground/30" />
       
-      {/* Card */}
-      <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl overflow-visible relative pt-16">
-        {/* Photo - positioned above the gradient */}
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
+       {/* Card */}
+      <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl relative">
+        {/* Photo - positioned above everything */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
           <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
             <img 
               src="/profile.jpeg" 
@@ -31,18 +31,8 @@ const IDCard = () => {
           </div>
         </div>
         
-        {/* Photo */}
-        <div className="flex justify-center -mt-20 mb-2">
-  <div className="w-32 h-32 rounded-full border-4 border-white shadow-xl overflow-hidden bg-gradient-to-br from-violet-200 to-pink-200">
-    <img 
-      src="/profile.jpeg" 
-      alt="Profile" 
-      className="w-full h-full object-cover"
-      onError={(e) => {
-        e.currentTarget.style.display = 'none';
-      }}
-    />
-  </div>
+        {/* Spacing after image */}
+        <div className="pt-16"></div>
 </div>
 
         {/* Content */}
