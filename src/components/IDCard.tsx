@@ -11,7 +11,7 @@ const IDCard = () => {
       <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl relative">
         {/* Photo - positioned above everything */}
          <div className="absolute top-0 left-1/2 -translate-x-1/2 translate-y-12 z-10">
-          <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
+          <div className="w-36 h-36 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
             <img 
               src="/profile.jpeg" 
               alt="Profile" 
