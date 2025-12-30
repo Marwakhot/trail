@@ -4,7 +4,7 @@ const ExperienceSection = () => {
   const experiences = [
     {
       title: "GITEX Representative @ dreamloop.ai",
-      description: "Demonstrated AI products at GITEX Global 2025, engaged with potential clients and partners, and presented technical capabilities to industry stakeholders.",
+      description: "Represented dreamloop.ai at GITEX Global, one of the world's largest tech exhibitions.Presented AI products to potential clients and investors, translating technical concepts into clear value propositions.",
       icon: <Mic className="w-5 h-5" />,
       bgColor: "bg-gradient-to-br from-orange-100 via-amber-50 to-yellow-100",
       borderColor: "border-orange-300",
@@ -13,30 +13,30 @@ const ExperienceSection = () => {
     },
     {
       title: "School Headgirl @ NIMS",
-      description: "Led student body initiatives, coordinated school-wide events, served as liaison between students and administration, and managed prefect council operations.",
+      description: "Led a 35+ member student council, driving initiatives and representing the student body. Planned and executed multiple inter-school events, coordinating teams and logistics at scale.",
       icon: <Award className="w-5 h-5" />,
+      bgColor: "bg-gradient-to-br from-rose-100 via-pink-50 to-fuchsia-100",
+      borderColor: "border-rose-300",
+      titleColor: "text-rose-700",
+      badgeColor: "bg-gradient-to-r from-rose-500 to-pink-500"
+    },
+    {
+      title: "Director General @ NIMSMUN",
+      description: "Oversaw a 150+ delegate Model United Nations conference conducted over three days. Managed committees, executive teams, and event operations to ensure smooth end-to-end execution.",
+      icon: <Users className="w-5 h-5" />,
       bgColor: "bg-gradient-to-br from-yellow-100 via-amber-50 to-orange-100",
       borderColor: "border-yellow-300",
       titleColor: "text-yellow-700",
       badgeColor: "bg-gradient-to-r from-yellow-500 to-amber-500"
     },
     {
-      title: "Director General @ NIMSMUN",
-      description: "Directed Model United Nations conference operations, oversaw committee formations, managed delegate training programs, and coordinated logistics for 200+ participants.",
-      icon: <Users className="w-5 h-5" />,
+      title: "High School Graduate @ NIMS Dubai",
+      description: "Completed high school with distinction, focusing on science and mathematics. Participated in various extracurricular activities and academic competitions.",
+      icon: <GraduationCap className="w-5 h-5" />,
       bgColor: "bg-gradient-to-br from-emerald-100 via-teal-50 to-cyan-100",
       borderColor: "border-emerald-300",
       titleColor: "text-emerald-700",
       badgeColor: "bg-gradient-to-r from-emerald-500 to-teal-500"
-    },
-    {
-      title: "High School Graduate @ NIMS Dubai",
-      description: "Completed high school with distinction in 2024, specializing in science and mathematics streams with participation in academic competitions.",
-      icon: <GraduationCap className="w-5 h-5" />,
-      bgColor: "bg-gradient-to-br from-rose-100 via-pink-50 to-fuchsia-100",
-      borderColor: "border-rose-300",
-      titleColor: "text-rose-700",
-      badgeColor: "bg-gradient-to-r from-rose-500 to-pink-500"
     }
   ];
 

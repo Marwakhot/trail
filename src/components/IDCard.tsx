@@ -2,7 +2,7 @@ import { Linkedin, Github } from "lucide-react";
 
 const IDCard = () => {
   return (
-    <div className="relative -ml-16 -translate-x-10">
+    <div className="relative -ml-16 -translate-x-12">
       {/* Lanyard/String - extends to top of screen */}
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-0.5 h-[50vh] bg-foreground/30" />
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-4 h-4 rounded-full bg-foreground/20 border-2 border-foreground/30" />
@@ -26,14 +26,14 @@ const IDCard = () => {
           <p className="text-accent font-semibold text-sm">AI & Big Data</p>
           
           <div className="mt-3 space-y-1 text-xs text-muted-foreground">
-            <p>email@example.com</p>
-            <p>+1 234 567 890</p>
+            <p>marwakhot007@gmail.com</p>
+            <p>+971 58 588 5323</p>
           </div>
           
           {/* Social Icons */}
           <div className="flex justify-center gap-3 mt-4">
             <a 
-              href="https://linkedin.com" 
+              href="https://www.linkedin.com/in/marwa-khot-238482353/" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"
@@ -41,7 +41,7 @@ const IDCard = () => {
               <Linkedin size={18} />
             </a>
             <a 
-              href="https://github.com" 
+              href="https://github.com/Marwakhot" 
               target="_blank" 
               rel="noopener noreferrer"
               className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center hover:bg-primary hover:text-primary-foreground transition-colors"

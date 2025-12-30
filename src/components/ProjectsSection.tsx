@@ -35,14 +35,14 @@ const categories: Category[] = [
         problem: "Slow bug assignment causing delays in development cycles and inefficient resource allocation.",
         solution: "Built an NLP and ML system to automatically predict the responsible team and priority for each bug report, handling bulk predictions via a Streamlit dashboard.",
         techStack: "Python, NLP (TF-IDF), LightGBM, Flask API, Streamlit, Docker",
-        github: "#"
+        github: "https://github.com/Marwakhot/bug-triage-nlp-api"
       },
       {
         title: "Robot Navigation Using AI Techniques",
         problem: "Autonomous navigation challenges in complex environments with dynamic obstacles.",
         solution: "Implemented Fuzzy Logic, Behavior Trees, and Q-Learning for obstacle avoidance in a 10m × 10m simulated arena.",
         techStack: "Python, Fuzzy Logic, Behavior Trees, Reinforcement Learning (Q-Learning)",
-        github: "#"
+        github: "https://github.com/Marwakhot/Gazebo_robot_navigation"
       }
     ]
   },
@@ -60,7 +60,7 @@ const categories: Category[] = [
         problem: "Black box problem in loan-approval AI with hidden biases causing legal and ethical risks.",
         solution: "Identified hidden biases and created a safety roadmap using NIST AI RMF to prevent discriminatory outcomes.",
         techStack: "Python, Fairlearn, Scikit-learn, NIST AI RMF",
-        github: "#"
+        github: "https://github.com/Marwakhot/-AI-Risk-Management-Audit"
       }
     ]
   },
@@ -78,21 +78,21 @@ const categories: Category[] = [
         problem: "Risk of extreme portfolio losses without proper capital reserves.",
         solution: "Calculated risk-adjusted capital requirements for a $1,000,000 portfolio, recommending a $21,578 daily capital reserve using 3 VaR models.",
         techStack: "Python, Pandas, NumPy, SciPy, Monte Carlo Simulation",
-        github: "#"
+        github: "https://github.com/Marwakhot/QuantRisk-VaR-Validation"
       },
       {
         title: "Quantopian Failure Analysis",
         problem: "Need to understand why a $48M fintech startup failed.",
         solution: "Identified weaknesses in scope control, risk monitoring, and stakeholder communication using PMBOK principles.",
         techStack: "PMBOK Framework, Case Study Research",
-        github: "#"
+        github: "https://github.com/Marwakhot/Quantopian_Failure_Analysis"
       },
       {
         title: "Stratify",
         problem: "Automotive companies struggling to manage the transition to EVs.",
         solution: "Provided real-time KPI tracking, sustainability monitoring, and operational insights to optimize resource use and decision-making.",
         techStack: "System Design, UML Modeling",
-        github: "#"
+        github: "https://github.com/Marwakhot/Stratify"
       }
     ]
   },
@@ -110,14 +110,14 @@ const categories: Category[] = [
         problem: "Disconnected process for students finding internships and companies managing applications.",
         solution: "Built a full-stack web application that connects students and companies by streamlining internship postings, applications, and tracking through role-based dashboards.",
         techStack: "HTML, JavaScript, CSS, Node.js, MySQL, REST APIs",
-        github: "#"
+        github: "https://github.com/Marwakhot/pear-internships"
       },
       {
         title: "Brain Brew",
         problem: "Passive PDF learning not engaging students in critical thinking.",
         solution: "Created an AI-powered platform that asks thought-provoking questions instead of direct answers, with 4 adaptive difficulty levels.",
         techStack: "React, TypeScript, Supabase, PostgreSQL, Three.js, Tailwind CSS",
-        github: "#"
+        github: "https://github.com/Marwakhot/BrainBrew"
       }
     ]
   }

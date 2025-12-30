@@ -4,7 +4,7 @@ const CurrentSection = () => {
   const currentRoles = [
     {
       title: "Data Science Intern @ Alamar",
-      description: "Building ML models for predictive analytics, creating data visualization dashboards, and developing automated reporting systems using Python and modern data stack.",
+      description: "Building analytical tables using AWS and Redshift to support quarterly reporting and business insights. Collaborating with stakeholders to transform raw data into structured, decision-ready datasets.",
       icon: <Briefcase className="w-5 h-5" />,
       bgColor: "bg-gradient-to-br from-orange-100 via-amber-50 to-yellow-100",
       borderColor: "border-orange-300",
@@ -13,7 +13,7 @@ const CurrentSection = () => {
     },
     {
       title: "CS Student @ UOW Dubai",
-      description: "Pursuing B.Sc. in Computer Science with a major in AI & Big Data. Coursework includes machine learning, data mining, distributed systems, and statistical analysis.",
+      description: "Pursuing a strong foundation in machine learning, data systems, and scalable computing.",
       icon: <GraduationCap className="w-5 h-5" />,
       bgColor: "bg-gradient-to-br from-emerald-100 via-teal-50 to-cyan-100",
       borderColor: "border-emerald-300",
