@@ -8,7 +8,18 @@ const IDCard = () => {
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-4 h-4 rounded-full bg-foreground/20 border-2 border-foreground/30" />
       
       {/* Card */}
-      <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl overflow-visible relative">
+      <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl overflow-visible relative pt-16">
+        {/* Photo - positioned above the gradient */}
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2">
+          <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
+            <img 
+              src="/profile.jpeg" 
+              alt="Profile" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+        
         {/* Gradient Header */}
         <div 
           className="h-32 relative rounded-t-2xl"
@@ -21,15 +32,18 @@ const IDCard = () => {
         </div>
         
         {/* Photo */}
-        <div className="flex justify-center -mt-16 mb-4">
-          <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
-            <img 
-              src="/profile.jpeg" 
-              alt="Profile" 
-              className="w-full h-full object-cover"
-            />
-          </div>
-        </div>
+        <div className="flex justify-center -mt-20 mb-2">
+  <div className="w-32 h-32 rounded-full border-4 border-white shadow-xl overflow-hidden bg-gradient-to-br from-violet-200 to-pink-200">
+    <img 
+      src="/profile.jpeg" 
+      alt="Profile" 
+      className="w-full h-full object-cover"
+      onError={(e) => {
+        e.currentTarget.style.display = 'none';
+      }}
+    />
+  </div>
+</div>
 
         {/* Content */}
         <div className="p-6 pt-0 text-center">
