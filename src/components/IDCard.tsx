@@ -20,10 +20,22 @@ const IDCard = () => {
           </div>
         </div>
         
+        {/* Photo */}
+        <div className="flex justify-center -mt-16 mb-4">
+          <div className="w-28 h-28 rounded-full border-4 border-white shadow-lg overflow-hidden bg-gradient-to-br from-primary/20 to-accent/20">
+            <img 
+              src="/profile.png" 
+              alt="Profile" 
+              className="w-full h-full object-cover"
+            />
+          </div>
+        </div>
+
         {/* Content */}
-        <div className="p-6 text-center">
+        <div className="p-6 pt-0 text-center">
           <p className="text-muted-foreground text-base">CS Student</p>
           <p className="text-accent font-semibold text-base">AI & Big Data</p>
+        
           
           <div className="mt-4 space-y-1 text-sm text-muted-foreground">
             <p>marwakhot007@gmail.com</p>
@@ -48,13 +60,6 @@ const IDCard = () => {
             >
               <Github size={20} />
             </a>
-          </div>
-          
-          {/* Decorative dots */}
-          <div className="flex justify-center gap-2 mt-5">
-            <div className="w-2.5 h-2.5 rounded-full bg-accent" />
-            <div className="w-2.5 h-2.5 rounded-full bg-yellow-400" />
-            <div className="w-2.5 h-2.5 rounded-full bg-green-400" />
           </div>
           
           {/* Barcode */}
