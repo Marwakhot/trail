@@ -36,8 +36,7 @@ const IDCard = () => {
 
         {/* Content */}
         <div className="p-6 pt-0 text-center">
-          <p className="text-muted-foreground text-base">CS Student</p>
-          <p className="text-accent font-semibold text-base">AI & Big Data</p>
+          <p className="text-accent font-semibold text-base">CS Student | AI & Big Data</p>
         
           
           <div className="mt-4 space-y-1 text-sm text-muted-foreground">
