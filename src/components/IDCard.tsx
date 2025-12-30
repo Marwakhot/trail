@@ -32,11 +32,12 @@ const IDCard = () => {
         </div>
         
         {/* Spacing after image */}
-        <div className="pt-16"></div>
+        <div className="pt-20"></div>
 
         {/* Content */}
         <div className="p-6 pt-0 text-center">
-          <p className="text-accent font-semibold text-base">CS Student | AI & Big Data</p>
+          <p className="text-muted-foreground text-base">CS Student</p>
+          <p className="text-accent font-semibold text-base">AI & Big Data</p>
         
           
           <div className="mt-4 space-y-1 text-sm text-muted-foreground">
