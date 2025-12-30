@@ -7,7 +7,7 @@ const IDCard = () => {
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-0.5 h-[50vh] bg-foreground/30" />
       <div className="absolute left-1/2 -translate-x-1/2 -top-[50vh] w-4 h-4 rounded-full bg-foreground/20 border-2 border-foreground/30" />
       
-       {/* Card */}
+      {/* Card */}
       <div className="id-card-hang w-72 bg-card rounded-2xl shadow-2xl relative">
         {/* Photo - positioned above everything */}
         <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 z-10">
@@ -33,7 +33,6 @@ const IDCard = () => {
         
         {/* Spacing after image */}
         <div className="pt-16"></div>
-</div>
 
         {/* Content */}
         <div className="p-6 pt-0 text-center">
