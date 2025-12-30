@@ -23,7 +23,7 @@ const HeroSection = () => {
           {/* Left Content */}
           <div className="space-y-8 order-last lg:order-first lg:pl-10">
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-bold leading-tight">
-              Hi I'm <span className="bg-gradient-to-r from-accent via-primary to-accent bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">Marwa</span>
+              Hi I'm <span className="bg-gradient-to-r from-pink-500 via-accent to-pink-500 bg-clip-text text-transparent bg-[length:200%_auto] animate-gradient">Marwa</span>
             </h1>
             
             <p className="text-lg md:text-xl text-muted-foreground max-w-lg">
